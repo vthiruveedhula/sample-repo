@@ -6,7 +6,7 @@ class Book:
         self.pages = pages
 
     def __str__(self):
-        return f"{title}, {self.pages} pages long."
+        return f"{self.title}, {self.pages} pages long."
 
     def __repr__(self):
         return str(self)
